@@ -3153,12 +3153,6 @@
 		(uuid "973e9629-94be-4346-a6f4-9066804f8a3f")
 	)
 	(junction
-		(at 151.13 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0168c89d-4df9-49de-a806-82734639db44")
-	)
-	(junction
 		(at 90.17 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3264,7 +3258,7 @@
 		(at 151.13 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5148d15-6ccd-4b9a-ac36-e12515597ed5")
+		(uuid "cc100f26-7ca5-470e-84e2-01ad7d32b863")
 	)
 	(junction
 		(at 49.53 40.64)
@@ -3283,6 +3277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f33722e6-ef1d-4b59-9ca8-350b60a25c67")
+	)
+	(junction
+		(at 151.13 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fea0584b-4855-4124-aa49-fe3645b65c96")
 	)
 	(junction
 		(at 69.85 49.53)
@@ -3524,7 +3524,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 158.75 88.9)
+			(xy 142.24 88.9) (xy 151.13 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3654,16 +3654,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 157.48 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "876cc58c-de16-4d80-ba28-8269c89f65b0")
-	)
-	(wire
-		(pts
 			(xy 161.29 41.91) (xy 166.37 41.91)
 		)
 		(stroke
@@ -3774,16 +3764,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 151.13 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a21991-4ca6-4148-9eb5-7856a75e57e2")
-	)
-	(wire
-		(pts
 			(xy 64.77 45.72) (xy 64.77 43.18)
 		)
 		(stroke
@@ -3804,6 +3784,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 96.52) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64b1fca-feb9-4ad0-8187-60e95ad6ec68")
+	)
+	(wire
+		(pts
 			(xy 152.4 52.07) (xy 156.21 52.07)
 		)
 		(stroke
@@ -3821,6 +3811,16 @@
 			(type default)
 		)
 		(uuid "c9b7f6eb-0b5c-4c75-a7be-6bef8a57ad81")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd11863d-a42c-4488-8de3-3083f5928eb2")
 	)
 	(wire
 		(pts
@@ -5620,87 +5620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 151.13 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53ca85e7-dc6a-4777-b23d-f0928315a169")
-		(property "Reference" "C10"
-			(at 151.892 90.424 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".1 uf"
-			(at 151.638 94.996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.0952 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 151.13 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffcd180c-9d14-4c67-bde7-81789b4f88f2")
-		)
-		(pin "2"
-			(uuid "4f77c805-5b59-4c7f-99cc-735cfc1fd97e")
-		)
-		(instances
-			(project "FluxCapacitor"
-				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 36.83 27.94 180)
 		(unit 1)
@@ -5857,6 +5776,87 @@
 			(project "FluxCapacitor"
 				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "560dc6e5-7fe0-4348-a6e1-12a5ae0e822c")
+		(property "Reference" "C10"
+			(at 151.892 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uf"
+			(at 151.638 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.0952 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1a7005d-762e-4544-922a-ddb246a4f667")
+		)
+		(pin "2"
+			(uuid "5a17cf65-afd9-4d1f-981d-2111f4336d10")
+		)
+		(instances
+			(project "FluxCapacitor"
+				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
+					(reference "C10")
 					(unit 1)
 				)
 			)
