@@ -520,13 +520,29 @@
         "uuid": "feb6d8df-599a-4f82-8f89-f7a3c96de191"
       }
     ],
-    "used_designators": "R8,#FLG4-5,#PWR22-24,D2-3,C8-10",
+    "used_designators": "J11-12,R8,R17-20,#FLG4-5,#PWR22-24,#PWR37-47,D2-3,D10-12,C8-10,C15-16,SW5-6,TP22-29",
     "variants": []
   },
   "sheets": [
     [
       "feb6d8df-599a-4f82-8f89-f7a3c96de191",
       "FluxCapacitor"
+    ],
+    [
+      "f1966630-0821-4b7c-b82e-458fe758bfe5",
+      "Daughterboard 1"
+    ],
+    [
+      "21e213a8-4d73-4914-b3d3-ef67c731c25d",
+      "Daughterboard 2"
+    ],
+    [
+      "cfb17d5f-85cb-4ac4-8e29-ad0dc82560ab",
+      "Daughterboard 3"
+    ],
+    [
+      "200ada43-68e6-4251-b2f1-69892f420c31",
+      "Daughterboard 4"
     ]
   ],
   "text_variables": {},
