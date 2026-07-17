@@ -3789,9 +3789,22 @@
 		)
 		(uuid "2cb1fbb7-718c-4009-8c97-357d681c2a55")
 	)
-	(text "DAUGHTERBOARD OUTPUTS"
+	(text "FIX RJ45 JACK PIN NUNMBERS"
 		(exclude_from_sim no)
-		(at 118.11 106.68 0)
+		(at 136.144 130.048 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 31 255 0 1)
+			)
+		)
+		(uuid "2f4ee5e1-6507-4521-97c5-a88a8a0efa0a")
+	)
+	(text "TM DAUGHTERBOARD CONNECTIONS"
+		(exclude_from_sim no)
+		(at 121.92 106.934 0)
 		(effects
 			(font
 				(size 1.27 1.27)
