@@ -520,7 +520,7 @@
         "uuid": "feb6d8df-599a-4f82-8f89-f7a3c96de191"
       }
     ],
-    "used_designators": "J3,J7-8,J11-14,R8,R17-24,#FLG4-5,#PWR22-26,#PWR37-56,D2-4,D10-15,C8-10,C15-18,SW5-8,TP22-37",
+    "used_designators": "J3,J7-14,R8,R17-24,#FLG4-7,#PWR22-28,#PWR37-56,D2-4,D10-15,C8-10,C15-18,SW5-8,TP6-7,TP22-37",
     "variants": []
   },
   "sheets": [
@@ -531,6 +531,14 @@
     [
       "2034eb13-da9e-4ee9-8d15-531e4404cdd1",
       "TM_DAUGHTERBOARD"
+    ],
+    [
+      "767db0a4-fe7e-4fb1-bdf3-b20d9fac0d67",
+      "RELAY SIGNAL SPLITTER"
+    ],
+    [
+      "2515011b-cc45-4520-afa9-4db12730106a",
+      "RELAY DAUGHTERBOARD"
     ]
   ],
   "text_variables": {},
