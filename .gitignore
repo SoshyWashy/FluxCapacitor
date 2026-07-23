@@ -1,7 +1,47 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+```gitignore
+# ==============================
+# Fusion 360
+# ==============================
 
-# Temporary files
+# Fusion 360 temporary and recovery files
+*.f3d~
+*.f3z~
+*.tmp
+*.temp
+*.bak
+*.autosave
+*.lock
+*.lck
+
+# Exported CAD and manufacturing files
+*.stl
+*.3mf
+*.obj
+*.step
+*.stp
+*.iges
+*.igs
+*.sat
+*.dxf
+*.gcode
+*.nc
+*.tap
+
+# Rendered images and videos
+renders/
+render/
+*.mp4
+*.mov
+
+
+# ==============================
+# KiCad
+# https://www.kicad.org/
+# File format documentation:
+# https://kicad.org/help/file-formats/
+# ==============================
+
+# Temporary and backup files
 *.000
 *.bak
 *.bck
@@ -19,13 +59,33 @@ fp-info-cache
 ~*.lck
 \#auto_saved_files#
 
-# Netlist files (exported from Eeschema)
+# Netlist files exported from Eeschema
 *.net
 
-# Autorouter files (exported from Pcbnew)
+# Autorouter files exported from Pcbnew
 *.dsn
 *.ses
 
 # Exported BOM files
 *.xml
 *.csv
+
+
+# ==============================
+# Operating system files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==============================
+# Editor files
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+```
