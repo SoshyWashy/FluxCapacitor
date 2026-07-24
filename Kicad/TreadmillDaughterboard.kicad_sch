@@ -3021,7 +3021,7 @@
 		(dnp no)
 		(uuid "18ea19d3-acfe-4a6b-9cb6-5ff626597a26")
 		(property "Reference" "C18"
-			(at 42.545 43.18 0)
+			(at 44.45 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3031,7 +3031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "10UF"
 			(at 42.545 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
