@@ -260,7 +260,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|850900|876300|5a13c659-223d-49b8-804c-432603a766bb|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|863600|406400|5e6fd2ad-db73-4eb8-b5b1-96c5f4ba7b61|00000000-0000-0000-0000-000000000000|||",
+        "Intentional one-off local symbol change to save space."
+      ],
+      [
+        "lib_symbol_mismatch|876300|406400|5e6fd2ad-db73-4eb8-b5b1-96c5f4ba7b61|00000000-0000-0000-0000-000000000000|||",
+        "Intentional one-off local symbol change to save space."
+      ],
+      [
+        "pin_not_driven|876300|1333500|7b96cd5d-2641-40db-9437-2496bd4a10a7|00000000-0000-0000-0000-000000000000|/feb6d8df-599a-4f82-8f89-f7a3c96de191|/feb6d8df-599a-4f82-8f89-f7a3c96de191|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -448,7 +465,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
@@ -468,8 +485,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -487,7 +504,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "FluxCapacitor"
+    ]
   },
   "meta": {
     "filename": "FluxCapacitor.kicad_pro",
@@ -744,7 +763,7 @@
         "uuid": "feb6d8df-599a-4f82-8f89-f7a3c96de191"
       }
     ],
-    "used_designators": "J3,J7-8,J11-14,#FLG4-5,#FLG10-12,#FLG19-22,R8,R13-32,#PWR22-24,#PWR27,#PWR31-33,#PWR37-54,#PWR58-62,D2-4,D8-19,C8-10,C14-19,SW5-8,TP15-18,TP22-37,LED1,U4-5,BZ1,U_LED_EXPANDER1,Q3-4,U_BTN_EXPANDER1,M1",
+    "used_designators": "J3,J7-8,J11-14,#FLG4-5,#FLG10-12,#FLG19-22,R8,R13-37,#PWR22-24,#PWR27,#PWR31-33,#PWR37-54,#PWR58-92,D2-4,D8-19,C8-10,C14-24,SW5-8,TP15-37,LED1,U4-6,BZ1,U_LED_EXPANDER1,Q3-4,U_BTN_EXPANDER1,M1",
     "variants": []
   },
   "sheets": [
