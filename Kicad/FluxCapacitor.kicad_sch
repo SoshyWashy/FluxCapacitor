@@ -11,6 +11,183 @@
 		(company "HEELUXE")
 	)
 	(lib_symbols
+		(symbol "C_Polarized_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names
 				(hide yes)
@@ -6951,9 +7128,9 @@
 		)
 		(uuid "46b8cc02-126a-42e0-a5a2-7b0c607b8ac8")
 	)
-	(text "12C COMPONENTS"
+	(text "12C GPIO EXPANDERS\n"
 		(exclude_from_sim no)
-		(at 23.622 66.04 0)
+		(at 25.908 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7490,10 +7667,6 @@
 	(no_connect
 		(at 151.13 69.85)
 		(uuid "2835c735-bc9f-419e-a110-4e836aff37d2")
-	)
-	(no_connect
-		(at 58.42 35.56)
-		(uuid "297a440e-daf4-4c74-b78f-243fa6224481")
 	)
 	(no_connect
 		(at 125.73 69.85)
@@ -11992,8 +12165,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
-			(at 243.078 151.384 0)
+		(property "Value" "0.1UF"
+			(at 243.84 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13459,7 +13632,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uf"
+		(property "Value" "0.1UF"
 			(at 36.322 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16337,8 +16510,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
-			(at 258.318 85.344 0)
+		(property "Value" "0.1UF"
+			(at 259.08 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16756,7 +16929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
+		(property "Value" "0.1UF"
 			(at 152.908 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17316,7 +17489,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 88.9 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -17370,7 +17543,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 88.9 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -17567,7 +17740,7 @@
 		(dnp no)
 		(uuid "63e95b8e-dfc8-4392-af37-7375e861c6d6")
 		(property "Reference" "R2"
-			(at 59.69 48.768 0)
+			(at 64.77 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17578,7 +17751,7 @@
 			)
 		)
 		(property "Value" "27k"
-			(at 59.69 51.308 0)
+			(at 67.056 51.308 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18953,7 +19126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abba889-6fd0-46a6-81cf-991b4faa40b8")
-		(property "Reference" "U7"
+		(property "Reference" "U_LED_EXPANDER1"
 			(at 45.3233 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19097,7 +19270,7 @@
 		(instances
 			(project "FluxCapacitor"
 				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
-					(reference "U7")
+					(reference "U_LED_EXPANDER1")
 					(unit 1)
 				)
 			)
@@ -19516,7 +19689,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uf"
+		(property "Value" "0.1UF"
 			(at 34.798 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20018,7 +20191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
+		(property "Value" "0.1UF"
 			(at 97.028 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21099,6 +21272,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_Polarized_1")
 		(lib_id "Device:C_Polarized")
 		(at 128.27 97.79 270)
 		(unit 1)
@@ -21120,7 +21294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100UF"
+		(property "Value" "1.5f"
 			(at 125.73 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21421,7 +21595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 241.3 83.82 180)
 		(unit 1)
 		(body_style 1)
@@ -21432,7 +21606,7 @@
 		(dnp no)
 		(uuid "af9d5957-0241-4ed5-9326-4a720054149f")
 		(property "Reference" "C11"
-			(at 245.872 81.534 0)
+			(at 245.872 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21475,7 +21649,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 241.3 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -22190,7 +22364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uf"
+		(property "Value" "0.1UF"
 			(at 94.488 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22766,7 +22940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5edbff0-cf0b-48e5-b4fd-67b9bdecbaf5")
-		(property "Reference" "U8"
+		(property "Reference" "U_BTN_EXPANDER"
 			(at 45.3233 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22910,7 +23084,7 @@
 		(instances
 			(project "FluxCapacitor"
 				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
-					(reference "U8")
+					(reference "U_BTN_EXPANDER")
 					(unit 1)
 				)
 			)
@@ -24606,7 +24780,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uf"
+		(property "Value" "0.1UF"
 			(at 72.898 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24763,7 +24937,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uf"
+		(property "Value" "0.1UF"
 			(at 93.98 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24920,7 +25094,7 @@
 			)
 		)
 		(property "Value" "SMF5.0A-T13"
-			(at 232.918 97.79 0)
+			(at 241.046 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26418,10 +26592,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3fb9705-563b-4441-88ec-a3550eb430c3")
 		(property "Reference" "R1"
-			(at 67.31 34.2899 0)
+			(at 64.77 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26432,7 +26605,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 67.31 36.8299 0)
+			(at 67.056 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27374,7 +27547,7 @@
 		(dnp no)
 		(uuid "fc62c8ce-d704-4af7-91e5-9378b04d9adf")
 		(property "Reference" "R8"
-			(at 133.096 90.678 0)
+			(at 132.08 93.726 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27384,8 +27557,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33"
-			(at 133.096 92.456 0)
+		(property "Value" "33Ω"
+			(at 134.112 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
