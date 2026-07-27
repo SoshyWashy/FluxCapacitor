@@ -4307,7 +4307,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66f2fbca-a5f6-46e6-9b6e-61ee1333e0fa")
 		(property "Reference" "SW8"
 			(at 46.99 97.79 0)

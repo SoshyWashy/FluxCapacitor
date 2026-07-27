@@ -14115,7 +14115,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "171f484e-86c2-4ca2-a925-59b98cd3f94a")
 		(property "Reference" "SW1"
 			(at 229.616 125.476 0)
@@ -14356,7 +14356,7 @@
 		(dnp no)
 		(uuid "1a50a339-c84a-456b-a9b3-b50e3c9fbbd4")
 		(property "Reference" "Q1"
-			(at 252.095 134.62 0)
+			(at 259.334 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14366,7 +14366,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 256.54 134.62 0)
+			(at 262.382 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
