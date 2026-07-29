@@ -5790,18 +5790,6 @@
 		(uuid "6a79b3cb-1f6c-456f-acb3-25009da3a902")
 	)
 	(rectangle
-		(start 15.24 67.31)
-		(end 80.01 194.31)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "8797cca2-2566-411a-a0c5-48491a60cc08")
-	)
-	(rectangle
 		(start 105.664 107.95)
 		(end 173.99 194.31)
 		(stroke
@@ -21912,7 +21900,7 @@
 		(dnp no)
 		(uuid "feabff3f-01a4-429f-9e6b-0cc601aa2fcb")
 		(property "Reference" "D1"
-			(at 25.4 48.26 0)
+			(at 29.21 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
