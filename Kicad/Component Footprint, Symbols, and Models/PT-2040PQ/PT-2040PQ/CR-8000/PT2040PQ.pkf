@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PT2040PQ"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PT2040PQ")
+        (spec "default")
+    )
+)

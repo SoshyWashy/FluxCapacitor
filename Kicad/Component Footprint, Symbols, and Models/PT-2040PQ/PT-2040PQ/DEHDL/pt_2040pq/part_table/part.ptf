@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PT_2040PQ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mallory Sonalert", "PT-2040PQ" (!) = "", "PT2040PQ", "Other", "539-PT2040PQ", "https://www.mouser.co.uk/ProductDetail/Mallory-Sonalert/PT-2040PQ?qs=l%2Fkuw%2F8%252BD9j2AVf7eGaf%252BA%3D%3D", "Audio Indicators & Alerts XDUCR, PIEZO, 4KHZ 90DB, PC PINS, 22X9", "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00027599.pdf", "9.4 mm"
+END_PART
+
+END.

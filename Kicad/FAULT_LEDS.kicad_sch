@@ -3917,7 +3917,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 128.27 73.66 180)
+		(at 139.7 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4112,7 +4112,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 73.66 90)
+		(at 139.7 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4123,7 +4123,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c7c279b-35d5-4afb-84c7-8be4a81fb8d1")
 		(property "Reference" "#PWR032"
-			(at 134.62 73.66 0)
+			(at 146.05 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4134,7 +4134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 73.6599 90)
+			(at 143.51 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4145,7 +4145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 73.66 0)
+			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +4156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 73.66 0)
+			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,7 +4167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 73.66 0)
+			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 118.11 106.9848 0)
 			(hide yes)
 			(show_name no)
@@ -4815,7 +4815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:C0805C101J5GACTU"
 			(at 101.2952 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5055,7 +5055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:GMC21X7R106K25NT"
 			(at 118.11 114.6048 0)
 			(hide yes)
 			(show_name no)

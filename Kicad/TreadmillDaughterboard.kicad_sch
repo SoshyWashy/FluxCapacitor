@@ -2864,7 +2864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 36.5252 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3180,7 +3180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:GMC21X7R106K25NT"
 			(at 41.6052 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4417,7 +4417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 38.4048 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4814,7 +4814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 77.1652 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5470,7 +5470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 38.4048 93.98 0)
 			(hide yes)
 			(show_name no)

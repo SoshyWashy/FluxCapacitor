@@ -1,0 +1,16 @@
+.D6R60_F1_LFS :1 ;Switch: keypad; Pos:2; SPST-NO; 0.01A/32VDC; blue; THT; 1.3N; round
+D6R60F1LFS
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="NO_1" 4="NO_2"
+*MXP 4
+*DFN D6R60_F1_LFS
+~!Mouser Part Number (611-D6R60F1LFS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CK/D6R60-F1-LFS?qs=ljbEvF4DwON75ZvAORmL0g%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (D6R60 F1 LFS)
+~!Link Datasheet (-)
+~!Height (12.8mm)
+~!3D_Model (D6R60_F1_LFS)
+D6R60_F1_LFS
+1.1!U 2.1!U 3.1!U 4.1!U 

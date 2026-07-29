@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'D6R60_F1_LFS'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "D6R60 F1 LFS" (!) = "", "D6R60F1LFS", "Other", "611-D6R60F1LFS", "https://www.mouser.co.uk/ProductDetail/CK/D6R60-F1-LFS?qs=ljbEvF4DwON75ZvAORmL0g%3D%3D", "Switch: keypad; Pos:2; SPST-NO; 0.01A/32VDC; blue; THT; 1.3N; round", "", "12.8 mm"
+END_PART
+
+END.

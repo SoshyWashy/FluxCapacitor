@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMF5.0A-T13
+D LITTELFUSE - SMF5.0A-T13 - TVS Diode, SMF Series, Unidirectional, 5 V, 9.2 V, SOD-123FL, 2 Pins
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -12753,7 +12753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 236.5248 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12796,6 +12796,84 @@
 			(project "FluxCapacitor"
 				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 238.76 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0560ff39-2bab-4785-94bb-ffc0cbb3d86a")
+		(property "Reference" "#PWR086"
+			(at 234.95 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_RAW"
+			(at 248.92 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37733461-13ce-4b62-885c-b54d0bd7bf56")
+		)
+		(instances
+			(project "FluxCapacitor"
+				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -13662,7 +13740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:25YXJ100M5X11"
 			(at 138.1252 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14219,7 +14297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 40.3352 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -14783,7 +14861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 57.15 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -15252,7 +15330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:25YXJ100M5X11"
 			(at 97.79 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -15479,7 +15557,7 @@
 				)
 			)
 		)
-		(property "Value" "5V_SYS"
+		(property "Value" "5V_RAW"
 			(at 86.36 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17337,7 +17415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 251.7648 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -17756,7 +17834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 147.0152 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -18337,7 +18415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:GMC21X7R106K25NT"
 			(at 89.8652 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -20515,7 +20593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 39.0652 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -21018,7 +21096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 97.4852 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21555,7 +21633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:25YXJ100M5X11"
 			(at 57.15 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -22121,7 +22199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:PHV-5R4V155-R"
 			(at 118.11 98.7552 0)
 			(hide yes)
 			(show_name no)
@@ -22443,7 +22521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:GMC21X7R106K25NT"
 			(at 240.3348 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -23191,7 +23269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 92.4052 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -23756,7 +23834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5edbff0-cf0b-48e5-b4fd-67b9bdecbaf5")
-		(property "Reference" "U_BTN_EXPANDER"
+		(property "Reference" "U_BTN_EXPANDER1"
 			(at 45.3233 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23900,7 +23978,7 @@
 		(instances
 			(project "FluxCapacitor"
 				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
-					(reference "U_BTN_EXPANDER")
+					(reference "U_BTN_EXPANDER1")
 					(unit 1)
 				)
 			)
@@ -25681,7 +25759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 77.47 48.5648 0)
 			(hide yes)
 			(show_name no)
@@ -25838,7 +25916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FluxCapacitor:CC0805KRX7R9BB104"
 			(at 97.79 40.9448 0)
 			(hide yes)
 			(show_name no)
@@ -26987,85 +27065,6 @@
 			(project "FluxCapacitor"
 				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 238.76 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edd01098-71d5-4cb9-a599-d11de606b68b")
-		(property "Reference" "#PWR086"
-			(at 234.95 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V_SYS"
-			(at 242.57 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 238.76 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9343c812-f0c4-44be-9390-c18252bf95c1")
-		)
-		(instances
-			(project "FluxCapacitor"
-				(path "/feb6d8df-599a-4f82-8f89-f7a3c96de191"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -28626,7 +28625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "1N4744A:DIOAD1036W78L463D237"
+		(property "Footprint" "FluxCapacitor:1N4744A"
 			(at 30.48 50.8 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D6R60_F1_LFS
+D Switch: keypad; Pos:2; SPST-NO; 0.01A/32VDC; blue; THT; 1.3N; round
+K
+F 
+$ENDCMP
+#
+#End Doc Library
