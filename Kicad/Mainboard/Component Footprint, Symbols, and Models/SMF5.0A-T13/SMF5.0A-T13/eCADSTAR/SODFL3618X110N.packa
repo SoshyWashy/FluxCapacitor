@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SMF5_0A-T13"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-31-12:35:42)
+    (mountForm default
+        (footprintRef "SODFL3618X110N")
+        (spec "System")
+    )
+)

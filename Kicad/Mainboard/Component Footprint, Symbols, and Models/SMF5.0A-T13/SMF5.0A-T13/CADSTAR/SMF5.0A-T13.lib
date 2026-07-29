@@ -1,0 +1,16 @@
+.SMF5.0A-T13 :1 ;LITTELFUSE - SMF5.0A-T13 - TVS Diode, SMF Series, Unidirectional, 5 V, 9.2 V, SOD-123FL, 2 Pins
+SODFL3618X110N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SMF5.0A-T13
+~!Mouser Part Number (576-SMF5.0A-T13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SMF5.0A-T13?qs=aGgfWYEhH7lEohru0mAWAg%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SMF5.0A-T13)
+~!Link Datasheet (https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf)
+~!Height (1.1mm)
+~!3D_Model (SMF5.0A-T13)
+SMF5.0A-T13
+1.1!U 2.1!U 

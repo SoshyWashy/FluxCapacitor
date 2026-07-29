@@ -1,0 +1,230 @@
+(footprint "D6R60F1LFS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "D6R60 F1 LFS-1")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 2.5 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "4d1a32ce-462f-4337-b3e5-7c77ae79c0b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "D6R60F1LFS"
+		(at 2.5 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8f1c2657-d44a-46c0-9e76-f1bc57053054")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e385d08-fd2f-42c1-a03e-39dc42c528cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29f4f7c5-19d6-490e-a95b-e28230d095d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.2 -8.5)
+		(end 8.2 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59c86737-2159-430b-909b-febf26d7342f")
+	)
+	(fp_line
+		(start -3.2 3.5)
+		(end -3.2 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "922d3fbf-abae-4f0c-b4f0-fc3251251470")
+	)
+	(fp_line
+		(start 8.2 -8.5)
+		(end 8.2 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6d74b36-7001-4764-a158-6b2cbc776908")
+	)
+	(fp_line
+		(start 8.2 3.5)
+		(end -3.2 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2dc4619-1e86-4772-b4a8-549f6c52c8f2")
+	)
+	(fp_line
+		(start -4.2 -9.5)
+		(end 9.2 -9.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb5d2806-c147-49ad-945f-2fe6203ad381")
+	)
+	(fp_line
+		(start -4.2 4.5)
+		(end -4.2 -9.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5f35784-4cb6-4a78-aef7-b02e76e1538c")
+	)
+	(fp_line
+		(start 9.2 -9.5)
+		(end 9.2 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fbed192-660e-4e4f-9334-2b96faea52b8")
+	)
+	(fp_line
+		(start 9.2 4.5)
+		(end -4.2 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3d0c5d7-2159-477d-aaea-32408471655c")
+	)
+	(fp_line
+		(start -3.2 -8.5)
+		(end 8.2 -8.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48055264-e6ce-49a9-8ecb-f5a9782c69e7")
+	)
+	(fp_line
+		(start -3.2 3.5)
+		(end -3.2 -8.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a60835f3-c25c-42c7-88a4-b9ecdca0a464")
+	)
+	(fp_line
+		(start 8.2 -8.5)
+		(end 8.2 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76470611-3e8a-4260-8470-6a6c7e811334")
+	)
+	(fp_line
+		(start 8.2 3.5)
+		(end -3.2 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05422b81-fa41-4d82-9aee-6ffaf8ff9ba0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -2.5 0)
+		(layer "F.Fab")
+		(uuid "d5cbc25a-167f-45e2-803c-2ce6b9b20cc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6756a212-b111-4896-be3f-59a212f86900")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fcf8aa4-70f5-4229-aee0-afc1e4e57c8f")
+	)
+	(pad "3" thru_hole circle
+		(at 5 -5)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57590917-565f-408e-bae3-26e4478f230d")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -5)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8690e28-4aff-4818-b336-68a92b4711fe")
+	)
+	(embedded_fonts no)
+	(model "D6R60_F1_LFS.stp"
+		(offset
+			(xyz 2.519999943 2.619999846 6.510000131)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

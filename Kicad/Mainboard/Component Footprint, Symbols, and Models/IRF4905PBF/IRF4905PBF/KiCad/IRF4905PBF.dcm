@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRF4905PBF
+D P-channel MOSFET,IRF4905 64A 55V
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e52aa5f51fe2980ce3912b85b4d53dd4.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Component Footprint, Symbols, and Models") (type "KiCad") (uri "${KIPRJMOD}/Component Footprint, Symbols, and Models.pretty") (options "") (descr ""))
+	(lib (name "FluxCapacitor") (type "KiCad") (uri "${KIPRJMOD}/FluxCapacitor.pretty") (options "") (descr ""))
+)

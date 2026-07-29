@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=D6R60 F1 LFS
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=3.2
+Released=2020-09-11 08:45:37
+Downloaded=2026-07-29 06:17:28
+3D=Y

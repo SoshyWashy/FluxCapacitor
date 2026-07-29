@@ -1,0 +1,16 @@
+.PT-2040PQ :1 ;Audio Indicators & Alerts XDUCR, PIEZO, 4KHZ 90DB, PC PINS, 22X9
+PT2040PQ
+*STM LS
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN PT-2040PQ
+~!Mouser Part Number (539-PT2040PQ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mallory-Sonalert/PT-2040PQ?qs=l%2Fkuw%2F8%252BD9j2AVf7eGaf%252BA%3D%3D)
+~!Manufacturer_Name (Mallory Sonalert)
+~!Manufacturer_Part_Number (PT-2040PQ)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00027599.pdf)
+~!Height (9.4mm)
+~!3D_Model (PT-2040PQ)
+PT-2040PQ
+1.1!U 2.1!U 

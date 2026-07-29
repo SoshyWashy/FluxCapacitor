@@ -1,0 +1,220 @@
+(footprint "PT2040PQ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PT-2040PQ-2")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "LS**"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(uuid "96e6c2ac-d65b-44fb-ab36-afae50898ece")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PT2040PQ"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d39b28d3-02b1-4d7c-b79c-13ac16a32928")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ba1f33d-bd32-465a-8178-8b47eb4d8c73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbb50222-2dde-458c-a7a7-cdb3bfbc78de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -6)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a454856-4721-45a1-a486-f301917c213a")
+	)
+	(fp_line
+		(start 0 16)
+		(end 0 16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24500acd-d25f-480e-86e0-db5d26012bf1")
+	)
+	(fp_arc
+		(start 0 -6)
+		(mid 11 5)
+		(end 0 16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7543c02f-4291-4d80-baa8-52bf006e920e")
+	)
+	(fp_arc
+		(start 0 16)
+		(mid -11 5)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0bd30bd-881b-43f9-aa9a-80fa13bbb503")
+	)
+	(fp_line
+		(start -11.5 5)
+		(end -11.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ba796d4-33fc-4a7b-80a1-65806a9fbbab")
+	)
+	(fp_line
+		(start 11.5 5)
+		(end 11.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e39b8d5-4477-4256-a192-6dcf859cd3b6")
+	)
+	(fp_arc
+		(start -11.5 5)
+		(mid 0 -6.5)
+		(end 11.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d21a488-9424-4adb-a67e-2d17b924df30")
+	)
+	(fp_arc
+		(start 11.5 5)
+		(mid 0 16.5)
+		(end -11.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cc2499b-7dbd-467d-b182-ef7252c76c88")
+	)
+	(fp_line
+		(start -11 5)
+		(end -11 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2617a978-84da-456c-bd52-1dfc56e4abb4")
+	)
+	(fp_line
+		(start 11 5)
+		(end 11 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bddac8a0-adea-478b-8602-34b12a79e189")
+	)
+	(fp_arc
+		(start -11 5)
+		(mid 0 -6)
+		(end 11 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "563804c4-1017-4a39-802d-2dd4d83b32f8")
+	)
+	(fp_arc
+		(start 11 5)
+		(mid 0 16)
+		(end -11 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eeb5ef0b-f4a5-42ee-9738-01dfde284ef0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "0f47dc08-90be-4e1b-88fa-9c5391df5e62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9987318-1fb3-4666-a2cd-aa7e1da5ef31")
+	)
+	(pad "2" thru_hole circle
+		(at 0 10)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe60b256-9cc6-465b-bd60-2c91894b03cc")
+	)
+	(embedded_fonts no)
+	(model "PT-2040PQ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
