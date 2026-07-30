@@ -10021,7 +10021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10268,7 +10268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 151.13 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10586,7 +10586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10745,7 +10745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 151.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14151,7 +14151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14643,7 +14643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14721,7 +14721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15614,7 +15614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16429,7 +16429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19708,7 +19708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -19865,7 +19865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 151.13 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -20022,7 +20022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 151.13 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20411,7 +20411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "FluxCapacitor:TestPoint_Pad_D1.5mm"
 			(at 55.88 149.86 0)
 			(hide yes)
 			(show_name no)
