@@ -5778,6 +5778,18 @@
 		(uuid "3e59cbfe-dfa8-44ca-9937-c4798191a8ea")
 	)
 	(rectangle
+		(start 15.24 67.31)
+		(end 78.74 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4f61568d-b32d-49f0-9099-d3f03ea7fcc0")
+	)
+	(rectangle
 		(start 105.41 15.24)
 		(end 173.99 82.55)
 		(stroke
