@@ -4637,16 +4637,16 @@
 		)
 		(symbol "SMF5.0A-T13_1_1"
 			(pin passive line
-				(at 6.35 0 180)
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "2"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4655,16 +4655,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
+				(at 6.35 0 180)
 				(length 2.54)
-				(name "1"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -2223,16 +2223,16 @@
 			)
 			(symbol "SMF5.0A-T13_1_1"
 				(pin passive line
-					(at 6.35 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "2"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2241,16 +2241,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 6.35 0 180)
 					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3578,12 +3578,6 @@
 		(uuid "185fbcf2-12d4-4f01-8f17-b4718cab3a12")
 	)
 	(junction
-		(at 227.33 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d7c0cfd-e8d9-4ca9-92dd-cf4a6bcd9ab2")
-	)
-	(junction
 		(at 241.3 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3630,6 +3624,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d300c30-bef7-4b84-9678-c383acc0c488")
+	)
+	(junction
+		(at 227.33 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dc91996-c659-4ddb-9340-8463a2b3113f")
 	)
 	(junction
 		(at 233.68 105.41)
@@ -7899,7 +7899,7 @@
 			)
 		)
 		(property "Value" "SMF5.0A-T13"
-			(at 241.046 95.504 0)
+			(at 240.538 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7908,7 +7908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FluxCapacitor:SMF5.0A-T13"
+		(property "Footprint" ""
 			(at 232.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7941,10 +7941,10 @@
 				)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "0cc0e1af-62b2-4b6d-b3dc-2793a935643a")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "c84aee88-0cb8-48e7-8f27-9d6f42b89507")
 		)
 		(instances
@@ -8376,7 +8376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_NC"
+		(property "Value" "TP_SPDT_NC"
 			(at 229.616 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)

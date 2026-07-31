@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Component Footprint, Symbols, and Models") (type "KiCad") (uri "${KIPRJMOD}/Component Footprint, Symbols, and Models.pretty") (options "") (descr ""))
 	(lib (name "FluxCapacitor") (type "KiCad") (uri "${KIPRJMOD}/FluxCapacitor.pretty") (options "") (descr ""))
+	(lib (name "KiCad_MouseBite_Footprints") (type "KiCad") (uri "D:/KicadProjects/FluxCapacitor/Kicad/KiCad_MouseBite_Footprints.pretty") (options "") (descr ""))
 )
