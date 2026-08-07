@@ -4,7 +4,6 @@
 # ==============================
 
 # Fusion 360 temporary and recovery files
-*.f3d~
 *.f3z~
 *.tmp
 *.temp
@@ -13,19 +12,6 @@
 *.lock
 *.lck
 
-# Exported CAD and manufacturing files
-*.stl
-*.3mf
-*.obj
-*.step
-*.stp
-*.iges
-*.igs
-*.sat
-*.dxf
-*.gcode
-*.nc
-*.tap
 
 # Rendered images and videos
 renders/
